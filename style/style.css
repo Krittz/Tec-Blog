@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #f7b600;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #e6e6e6;
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  background-color: var(--primary-color);
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+header .main-title h1 {
+  color: #4e4e4e;
+  font-size: 2.5rem;
+}
+header .main-title h1 span {
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+}
+nav ul li a:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+main{        
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+.post{
+    width: 660px;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+.post h2{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+.post a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.post img{
+    width: 100%;
+}
+.side-content{
+    width: 200px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.lateral{
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 1rem;
+    font-size: 14px;
+}
+.lateral h3{
+    color: #4e4e4e;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+.lateral a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.lateral a:hover{
+    text-decoration: underline;
+}
+.lateral ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
