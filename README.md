@@ -1,6 +1,6 @@
-## Blog criando com intuito de aprendizado
+### Blog criando com intuito de aprendizado
 
-## Utilizando tecnologias:
+#### Utilizando tecnologias:
 
 ##### . HTML5
 
